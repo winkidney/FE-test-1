@@ -1,5 +1,16 @@
+$link-white: #fff;
+
 .btn-customized {
-    color: #fff;
-    background-color: rgb(200,20,100);
-    border-color: rgb(186, 19, 93);
+  color: $link-white;
+  background-color: rgb(200,20,100);
+  border-color: rgb(186, 19, 93);
+  &:hover,
+  &:visited
+  {
+    color: $link-white !important;
+  }
+  &:hover {
+    background-color: rgb(223, 20, 119);
+    border-color: rgb(191, 19, 97);
+  }
 }
